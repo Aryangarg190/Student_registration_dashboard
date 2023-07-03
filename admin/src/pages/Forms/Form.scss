@@ -1,0 +1,55 @@
+@import "../../index.css";
+
+.Page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  .Form {
+    width: 40%;
+    text-align: center;
+    label {
+      text-align: left;
+      display: block;
+    }
+    h2 {
+      font-size: 20px;
+      color: rgb(134, 60, 60);
+      margin-bottom: 30px;
+    }
+    input {
+      width: 100%;
+      padding: 6px 10px;
+      margin: 15px 0;
+      border: 1px solid;
+      box-sizing: border-box;
+      display: block;
+      border-radius: 5px;
+      height: 40px;
+    }
+    .upload-images {
+      text-align: left;
+    }
+    .image {
+      height: 100px;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .btn-wrapper {
+      width: 100%;
+      margin: 10px 0;
+
+      .submit-btn {
+        background: #984c37;
+        color: #ffffff;
+        border: 0;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        width: fit-content;
+      }
+    }
+  }
+}
